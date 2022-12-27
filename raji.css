@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    /* background: url(background-modified.jpeg); */
+    background-attachment: fixed;
+    background-color: rgb(1, 1, 1);
+}
+
+.container {
+    position: absolute;
+    height: 1000px;
+    width: 1277px;
+}
+
+.name h1 {
+    position: relative;
+    color: white;
+    width: 250px;
+    margin: auto;
+    padding: 8px 231px;
+    text-align: center;
+}
+
+H1:hover {
+    letter-spacing: 0.5em;
+    background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: default;
+}
+
+img {
+    position: relative;
+    top: -144px;
+    border: 5px solid rgb(252, 255, 158);
+    border-radius: 9px;
+}
+
+.bio {
+    top: -1035px;
+    left: 317px;
+    color: white;
+    position: relative;
+    margin: auto;
+    padding: 35px 356px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#info {
+    font-size: medium;
+    font-style: italic;
+    margin: auto;
+    position: relative;
+    top: -898px;
+}
+
+.info1 {
+    font-size: medium;
+    font-style: italic;
+    color: white;
+    margin: auto;
+    position: relative;
+    top: -775px;
+}
+
+.video {
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    top: -756px;
+}
+
+h2 {
+    color: rgb(252, 255, 158);
+}
+
+.quote {
+    color: rgb(252, 255, 158);
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    margin: -22px 520px;
+    left: 488px;
+    width: fit-content;
+    text-align: center;
+    top: 17px
+}
+
+H1 {
+    top: -162px;
+    position: relative;
+    font-size: 2em;
+    transition: letter-spacing 0.5s ease 0s;
+}
+
+.index {
+    color: rgb(252, 255, 158);
+    font-optical-sizing: auto;
+    font-family: "Palanquin rev=2";
+    font-size: xx-large;
+    font-stretch: normal;
+    line-height: initial;
+    top: 50px;
+    left: 1004px;
+    position: relative;
+    width: fit-content;
+}
+
+.raji {
+    -webkit-text-fill-color:rgb(252, 255, 158);
+    font-weight: 600;
+}
+.end{
+    position: relative;
+    text-align: center;
+    font-size: 38px;
+}
